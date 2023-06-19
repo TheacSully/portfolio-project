@@ -6,21 +6,34 @@
   --defualt-font-family: "Raleway", sans-serif;
 }
 
+.container {
+  margin-bottom: 50px;
+}
+
+.navbar-brand {
+  font-family: var(--heading-font-family);
+}
+
 h1 {
   font-family: var(--heading-font-family);
 }
 h2 {
   font-family: var(--defualt-font-family);
 }
+p {
+  font-family: var(--defualt-font-family);
+}
 
 h1,
-h2 {
+h2,
+p {
   color: var(--primary-color);
 }
 .hero {
   background: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
+  margin-bottom: 30px;
 }
 
 .btn-branding {
@@ -31,4 +44,14 @@ h2 {
   line-height: 27px;
   padding: 15px 30px;
   font-family: var(--defualt-font-family);
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  box-shadow: var(--box-shadow);
+  color: white;
+  background: var(--branding-color);
+  text-decoration: none;
+  text-transform: capitalize;
 }
