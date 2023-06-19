@@ -1,0 +1,14 @@
+h1 {
+  font-family: "Bad Script";
+}
+
+p {
+  font-family: "Raleway";
+}
+
+i {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  padding: 4px;
+  border-radius: 5px;
+}
