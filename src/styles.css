@@ -55,3 +55,29 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
+
+.about-page {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.about-page h1 {
+  font-size: 64px;
+  color: var(--branding-color);
+}
+
+.about-page h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.about-page p {
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+.about-page img {
+  width: 400px;
+  border-radius: 2px;
+  margin-top: 20px;
+}
