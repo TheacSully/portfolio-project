@@ -62,7 +62,8 @@ p {
   text-transform: capitalize;
 }
 
-.about-page {
+.about-page,
+.contact-page {
   text-align: center;
   margin-top: 150px;
 }
@@ -92,4 +93,13 @@ p {
   margin-top: 100px;
   text-align: center;
   font-size: 48px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+a :hover {
+  cursor: pointer;
 }
