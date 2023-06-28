@@ -145,3 +145,8 @@ footer .social-links a:hover {
 .fa-github {
   margin-right: -4px;
 }
+
+.footer-note {
+  font-size: 12px;
+  font-weight: 500;
+}
